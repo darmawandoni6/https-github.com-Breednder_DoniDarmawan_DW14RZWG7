@@ -1,0 +1,285 @@
+div {
+  /* border: 1px solid black; */
+}
+.bg-design {
+  height: 130px;
+
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+}
+
+.header-profile {
+  width: 100%;
+  height: 15%;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+}
+
+.img-match > img {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+.bg {
+  background-image: url("../asset/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+}
+
+.col-left {
+  float: left;
+  width: 30%;
+  height: 100vh;
+}
+
+.col1 {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+.col1 > img {
+  width: 80%;
+  height: 80%;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+.col2 {
+  width: 70%;
+  float: right;
+  height: 100%;
+  display: block;
+}
+.col2 > h1 {
+  padding-top: 30px;
+  color: white;
+}
+.match {
+  width: 100%;
+  height: 10%;
+  display: block;
+}
+.scrol {
+  display: block;
+  overflow: auto;
+}
+.match > h1 {
+  padding-left: 10px;
+}
+
+.match > hr {
+  width: 30%;
+  height: 5px;
+  background: red;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.conten-match {
+  width: 100%;
+  height: 75%;
+  padding-top: 5px;
+
+  overflow: auto;
+}
+
+.conten-match > div {
+  padding-top: 5px;
+}
+
+.conten1 {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+.conten1 > img {
+  width: 80%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.conten2 {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+.conten2 > img {
+  width: 90%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.conten3 {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+.conten3 > img {
+  width: 90%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.picture-match {
+  width: 350px;
+  height: 600px;
+  margin-left: 30%;
+}
+
+.card-pict1 {
+  height: 80%;
+  width: 100%;
+}
+.card-pict1 > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info-detail {
+  float: none;
+  width: 100%;
+}
+
+.col-right {
+  float: right;
+  width: 70%;
+  height: 100vh;
+  background-image: url("../asset/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.match-view {
+  width: 350px;
+  height: 550px;
+  margin: auto;
+}
+
+.card-isi {
+  height: 20%;
+  width: 100%;
+}
+
+.card-isi {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.card-height {
+  height: 80%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card-height > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.card-text {
+  margin-top: 50%;
+}
+
+.card-posisi {
+  position: relative;
+  top: 31%;
+  width: 100%;
+}
+.card-posisi > div {
+  text-align: left;
+}
+.card-posisi > div > b {
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.h-card {
+  font-size: 3em;
+  color: white;
+}
+.style-icon {
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+}
+.style-icon > img {
+  height: 32px;
+  width: 32px;
+  margin-top: 0px;
+}
+.match-icon {
+  margin-top: 2%;
+  width: 100%;
+  height: 18%;
+}
+.isi-sudut {
+  width: 25%;
+  float: left;
+}
+.isi-tengah {
+  width: 25%;
+  float: left;
+}
+
+.isi-sudut > img {
+  width: 80%;
+  height: 80%;
+}
+.isi-tengah > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.isi-sudut > img,
+.isi-tengah > img {
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 3px 3px 3px #888888;
+}
+.isi-sudut > img:hover,
+.isi-tengah > img:hover {
+  background-color: rgb(228, 28, 13);
+  cursor: pointer;
+}
+
+.label-name {
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.label-name > p {
+  font-size: 1.5em;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  position: absolute;
+  bottom: 0;
+  display: block;
+  margin-bottom: 0px;
+  width: 100%;
+  padding-left: 12px;
+  padding-bottom: 6px;
+  border-radius: 10px;
+}
+.pos-img {
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 8px;
+}

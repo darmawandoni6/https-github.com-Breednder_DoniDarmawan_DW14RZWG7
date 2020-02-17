@@ -1,0 +1,49 @@
+{
+  "listImages": [
+    {
+      "id": 1,
+      "name": "Meong",
+      "img": "http://localhost:3000/image/meong.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Ira",
+      "img": "http://localhost:3000/image/ira.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Jhon",
+      "img": "http://localhost:3000/image/jhon.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Garong",
+      "img": "http://localhost:3000/image/meong.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Meow",
+      "img": "http://localhost:3000/image/meow.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Kucing Oyen",
+      "img": "http://localhost:3000/image/oyen.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Persial",
+      "img": "http://localhost:3000/image/persial.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Cmiiw",
+      "img": "http://localhost:3000/image/pp.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Snow",
+      "img": "http://localhost:3000/image/snow.jpg"
+    }
+  ]
+}

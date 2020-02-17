@@ -1,0 +1,175 @@
+.font-warna {
+  color: whitesmoke;
+}
+
+.center {
+  text-align: center;
+}
+
+.size-conten {
+  font-size: 80px;
+  margin-top: 5%;
+}
+
+.btn-custom1 {
+  background-color: violet;
+  border-radius: 5px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* tinggi dari footer */
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+}
+
+.footer h1 {
+  color: white;
+  text-align: center;
+}
+
+.header-margin {
+  margin-top: 10px;
+}
+
+.img-gradient {
+  color: rgb(255, 255, 255);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(236, 122, 122, 0.14) 0%,
+      rgba(236, 122, 183, 0.13) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(236, 122, 122, 0.237) 0%,
+      rgba(0, 0, 0, 0) 100%,
+      rgba(236, 122, 183, 0) 100%
+    );
+}
+
+.modal-set {
+  text-align: center;
+}
+.modal-set h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  font-size: 80px;
+}
+.form-set {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 20px;
+}
+.size-form {
+  width: 80%;
+  margin: auto;
+  display: block !important; /* I added this to see the modal, you don't need this */
+  overflow-y: initial !important;
+  height: 250px;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+.btn-set {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: Avenir 85 Heavy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.warna-button {
+  width: 100px;
+  height: 50px;
+  top: 90px;
+  background: linear-gradient(#ec7a7a, #ec7ab7);
+  color: white;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.atas-beranda-kiri {
+  height: 161px;
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+}
+body.atas-beranda-kanan {
+  height: 1000px;
+  background-color: blue;
+}
+
+.beranda-kiri {
+  width: 100%;
+}
+.profile {
+  position: relative;
+  width: 109px;
+  height: 109px;
+  left: 37px;
+  top: 26px;
+  border: 4px solid #ffffff;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile > img {
+  position: absolute;
+  left: -10px;
+  width: 160px;
+  overflow: hidden;
+}
+.btn-modal {
+  width: 100%;
+  border-radius: 100px;
+}
+.margin-auto > b > h2 {
+  margin-top: 25%;
+  margin-left: 15%;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.dropdown {
+  border: none;
+}
+#dropdown-basic {
+  color: black;
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  outline: none;
+  border-color: no;
+}
+
+.scrol {
+  display: block;
+  padding: 5px;
+  margin-top: 5px;
+  height: 400px;
+  overflow: auto;
+}
+.border-match {
+  border-bottom: 5px solid red;
+  margin-left: 30px;
+}

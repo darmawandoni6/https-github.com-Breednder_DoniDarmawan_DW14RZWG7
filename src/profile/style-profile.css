@@ -1,0 +1,538 @@
+div {
+  /* border: 1px solid black; */
+}
+
+.bg-design {
+  height: 130px;
+
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+}
+
+/* .header-profile {
+  width: 100%;
+  height: 100px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+} */
+
+.img-match > img {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+.bg {
+  background-image: url("../asset/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 140px;
+}
+
+.col-left {
+  float: left;
+  width: 30%;
+  height: 100vh;
+}
+.col11 {
+  /* padding: 0 100px; */
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+.col11 > img {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.col22 {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.col22 > img {
+  width: 95%;
+  height: 80%;
+  border-radius: 100%;
+  border: 3px solid white;
+  margin-top: 10px;
+}
+.col33 {
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+.col33 > h1 {
+  margin-left: 10px;
+  padding-top: 35px;
+}
+
+.match2 {
+  width: 100%;
+  background-color: #ededed;
+  height: 60px;
+}
+.match > div {
+  background-color: white;
+}
+
+.email,
+.phone {
+  width: 100%;
+  height: 50px;
+}
+
+.email > p,
+.phone > p {
+  font-size: 20px;
+}
+.border-p {
+  border-top: 3px solid #ededed;
+}
+.account2 > div {
+  font-size: 22px;
+}
+
+.match2 > h3 {
+  padding-left: 10px;
+  padding-top: 15px;
+  height: 100%;
+}
+
+.conten-match {
+  width: 100%;
+}
+
+.conten1 {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+.conten1 > img {
+  width: 90%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.conten2 {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+.conten2 > img {
+  width: 90%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.conten3 {
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+.conten3 > img {
+  width: 90%;
+  height: 100%;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.picture-profile {
+  width: 350px;
+  height: 550px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.col-right {
+  float: right;
+  width: 70%;
+  height: 100vh;
+  background-image: url("../asset/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+}
+.add-profil-grid {
+  padding: 10px;
+}
+
+.card-pict {
+  height: 70%;
+  width: 100%;
+  border-radius: 20px;
+}
+.card-pict > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.input-range {
+  width: 100%;
+}
+.input-range > input {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5px;
+}
+.input-ket {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.btn-logout {
+  width: 40%;
+  height: 40px;
+  margin-left: 30%;
+  border-radius: 30px;
+  border: 0px;
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+  color: white;
+}
+.name-profile {
+  float: left;
+  padding-left: 10px;
+  font-size: 42px;
+  font-weight: 1000;
+}
+.spices-profile {
+  float: right;
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 32px;
+}
+.row-name {
+  height: 70px;
+}
+
+.profile-ket {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile-ket > img {
+  height: 1.5em;
+  padding-right: 5px;
+}
+.profile-ket > button {
+  margin-top: 10px;
+  margin-left: 40%;
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  border: 0px;
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+  color: white;
+}
+.profile-ket > h2,
+.profile-ket > p,
+.profile-ket > img {
+  margin-left: 10px;
+}
+.add-Pet {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0px;
+  background: linear-gradient(270deg, #ec7ab7 0%, #ec7a7a 54.71%),
+    linear-gradient(90deg, #ffc75a 0%, #ec7a7a 50%), #ec7a7a;
+  color: white;
+
+  float: right;
+}
+.flot {
+  float: left;
+  padding-left: 20px;
+}
+.flot2 {
+  float: right;
+  margin-right: 10px;
+}
+
+.mdPremium {
+  width: 600px;
+  height: 700px;
+  background: linear-gradient(180deg, #ec7ab7 0%, #ec7a7a 100%);
+  border: 1px solid white;
+}
+
+.mdheader {
+  font-size: 26;
+  width: 100%;
+  height: 20%;
+}
+.mdClose {
+  color: white;
+  text-align: right;
+
+  margin-top: -15px;
+  margin-right: -5px;
+}
+.mdClose:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.mdheaderPremium {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  color: #ffffff;
+}
+.mdInputRek {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.input-mdl-rek {
+  font-size: 1.5em;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.mdInputBukti {
+  width: 100%;
+  height: 30%;
+}
+.input-box {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  padding-top: 5%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.input-box > img {
+  opacity: 20%;
+  margin-left: 35%;
+}
+.input-box > p {
+  text-align: center;
+  margin-top: 5%;
+
+  color: rgba(0, 0, 0, 0.3);
+}
+.mdIsi {
+  width: 100%;
+  height: 25%;
+  font-size: 25px;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: #ffffff;
+}
+.hr1,
+.hr2 {
+  width: 49%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.hr1 {
+  float: left;
+}
+.hr1 {
+  float: right;
+}
+
+.hr-header {
+  margin-top: -10px;
+  height: 10px;
+}
+
+.card-profile-detail {
+  height: 30px;
+  width: 100%;
+}
+
+.picture-detail {
+  height: 23%;
+  overflow: auto;
+}
+
+.picture-name {
+  width: 100%;
+  height: 60%;
+  display: block;
+  margin-bottom: -4px;
+}
+.picture-name > h1 {
+  float: left;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  margin-left: 10px;
+}
+
+.picture-name > h2 {
+  float: right;
+  color: #7e7e7e;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+.pct-detail {
+  width: 38px;
+  height: 38px;
+  text-align: left;
+  padding-left: 10px;
+  float: left;
+}
+.pct-detail > img {
+  width: 100%;
+  height: 100%;
+}
+.ket {
+  width: 100%;
+  height: 40px;
+}
+.pct-detail-ket {
+  float: left;
+  height: 38px;
+  padding-left: 5px;
+  color: #838080;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 12px;
+}
+
+.card-btn {
+  width: 100%;
+  height: 7%;
+}
+
+.btn-edit {
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 80px;
+  margin-top: 3px;
+  height: 85%;
+  width: 100px;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+}
+
+.input-btn {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+}
+.input-btn > button {
+  background: #f7f7fa;
+  border-radius: 50px;
+  width: 200px;
+  height: 100%;
+  font-size: 1.5em;
+  align-items: center;
+  text-align: center;
+  border: none;
+  color: rgb(245, 32, 121);
+}
+.about-profile {
+  font-style: normal;
+}
+.about-profile > h1 {
+  text-align: left;
+  margin-left: 10px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-profile > p {
+  color: #7e7e7e;
+}
+
+.add-image-profile {
+  width: 95%;
+  height: 77%;
+  margin-left: 2.5%;
+}
+
+.picture-add-profile {
+  width: 350px;
+  height: 98%;
+  margin: auto;
+  background: #e5e5e5;
+  border-radius: 20px;
+  padding-top: 5px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.add-image {
+  width: 30%;
+  height: 150px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    #c4c4c4;
+  border-radius: 10px;
+}
+
+.add-edit-profile {
+  width: 100%;
+  height: 17%;
+  overflow: auto;
+  text-align: left;
+}
+
+.form-label > h4 {
+  margin-left: 10px;
+}
+.add-edit-btnSave {
+  background-color: white;
+  height: 5.5%;
+  width: 100%;
+}
+.add-edit-btnSave > button {
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  border-radius: 30px;
+  border: 0px;
+  color: white;
+}
+.imageAdd,
+.imageAdd > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+}
+
+.posisi > img {
+  width: 24px;
+  height: 24px;
+}
+.posisi {
+  margin-right: -30px;
+  margin-top: 105px;
+  text-align: right;
+}
